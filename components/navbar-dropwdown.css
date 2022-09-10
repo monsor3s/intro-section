@@ -1,0 +1,11 @@
+.navbar-dropdown {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--MediumGray);
+}
+
+.navbar-dropdown:hover {
+    color: var(--AlBlack);
+    cursor: pointer;
+}

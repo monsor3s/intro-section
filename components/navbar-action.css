@@ -1,0 +1,5 @@
+.navbar-action {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
