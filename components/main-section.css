@@ -1,0 +1,17 @@
+.main-section {
+    box-sizing: border-box;
+    width: calc(100% - 80px);
+    height: 648px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.main-section .hero-image {
+    width: 480px;
+    height: 640px;
+}
