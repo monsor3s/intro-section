@@ -1,0 +1,16 @@
+.main-button {
+    border: 1px solid var(--AlBlack);
+    border-radius: 16px;
+    width: 163px;
+    height: 56px;
+    background-color: var(--AlBlack);
+    color: var(--AlWhite);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-button:hover {
+    background-color: var(--AlWhite);
+    color: var(--AlBlack);
+    cursor: pointer;
+}
