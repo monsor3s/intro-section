@@ -11,13 +11,6 @@
     margin-right: 64px;
 }
 
-.main-navbar .navbar {
-    width:380px;
-    display: flex;
-    justify-content: space-between;
-}
-
-
 .main-navbar .navbar-dropdown.-action-button {
     width: 104px;
     height: 42px;
