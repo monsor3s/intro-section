@@ -1,14 +1,14 @@
 .main-section {
     box-sizing: border-box;
-    width: calc(100% - 80px);
+    /* width: auto; */
     height: 648px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .main-section .hero-image {
