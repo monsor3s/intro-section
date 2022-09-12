@@ -1,0 +1,21 @@
+.navbar-item {
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar-item:hover {
+    cursor: pointer;
+}
+
+.navbar-item .navbar-dropdown-icon {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/icon-arrow-down.svg);
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+

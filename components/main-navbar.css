@@ -11,10 +11,3 @@
     margin-right: 64px;
 }
 
-.main-navbar .navbar-dropdown.-action-button {
-    width: 104px;
-    height: 42px;
-    border: 2px solid var(--MediumGray);
-    border-radius: 14px;
-    justify-content: center;
-}

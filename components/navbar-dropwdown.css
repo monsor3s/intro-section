@@ -3,9 +3,19 @@
     align-items: center;
     text-decoration: none;
     color: var(--MediumGray);
+    font-size: 14px;
+    position: relative;
 }
 
 .navbar-dropdown:hover {
     color: var(--AlBlack);
+}
+
+.navbar-dropdown.-action-button {
+    width: 104px;
+    height: 42px;
     cursor: pointer;
+    border: 2px solid var(--MediumGray);
+    border-radius: 14px;
+    justify-content: center;
 }

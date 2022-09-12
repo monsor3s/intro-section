@@ -1,9 +1,5 @@
 .navbar-navigation {
-        width:380px;
-        display: flex;
-        justify-content: space-between;
-}
-
-.navbar-navigation .navbar-item {
-    list-style: none;
+    width:380px;
+    display: flex;
+    justify-content: space-between;
 }
