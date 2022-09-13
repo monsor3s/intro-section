@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./components/navbar-container.css">
     <link rel="stylesheet" href="./components/navbar-navigation.css">
     <link rel="stylesheet" href="./components/navbar-item.css">
+    <link rel="stylesheet" href="./components/dropdown-menu.css">
     <link rel="stylesheet" href="./components/navbar-action.css">
     <link rel="stylesheet" href="./components/navbar-dropwdown.css">
     <link rel="stylesheet" href="./components/main-section.css">
@@ -30,12 +31,42 @@
         <div class="navbar-container">
             <ul class="navbar-navigation">
                     <li class="navbar-item">
-                            <a href="" class="navbar-dropdown">Features</a>
+                            <input id="toggle" type="checkbox">
+                            <a for="toggle" href="#" class="navbar-dropdown">Features</a>
                             <div class="navbar-dropdown-icon" />
+                                <div class="dropdown-menu">
+                                    <a href="" class="dropdown-menu-link">
+                                        <img src="./img/icon-todo.svg" alt="icon todolist" class="dropdown-menu-icon">
+                                        <span class="dropdown-menu-text">Todo List</span>
+                                    </a>
+                                    <a href="" class="dropdown-menu-link">
+                                        <img src="./img/icon-calendar.svg" alt="icon calendar" class="dropdown-menu-icon">
+                                        <span class="dropdown-menu-text">Calendar</span>
+                                    </a>
+                                    <a href="" class="dropdown-menu-link">
+                                        <img src="./img/icon-reminders.svg" alt="icon reminders" class="dropdown-menu-icon">
+                                        <span class="dropdown-menu-text">Reminders</span>
+                                    </a>
+                                    <a href="" class="dropdown-menu-link">
+                                        <img src="./img/icon-planning.svg" alt="icon planning" class="dropdown-menu-icon">
+                                        <span class="dropdown-menu-text">Planning</span>
+                                    </a>
+                                </div>  
                     </li>
                     <li class="navbar-item">
                             <a href="" class="navbar-dropdown">Company</a>
                             <div class="navbar-dropdown-icon" />
+                                <div class="dropdown-menu -company">
+                                    <a href="" class="dropdown-menu-link">                        
+                                        <span class="dropdown-menu-text">History</span>
+                                    </a>
+                                    <a href="" class="dropdown-menu-link">                        
+                                        <span class="dropdown-menu-text">Our Team</span>
+                                    </a>
+                                    <a href="" class="dropdown-menu-link">                        
+                                        <span class="dropdown-menu-text">Blog</span>
+                                    </a>
+                                </div>
                     </li>
                     <li class="navbar-item">
                         <a href="" class="navbar-dropdown">Careers</a>
