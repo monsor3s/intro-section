@@ -13,10 +13,9 @@
     <link rel="stylesheet" href="./components/navbar-container.css">
     <link rel="stylesheet" href="./components/navbar-navigation.css">
     <link rel="stylesheet" href="./components/navbar-item.css">
-    <link rel="stylesheet" href="./components/toggle.css">
     <link rel="stylesheet" href="./components/dropdown-menu.css">
-    <link rel="stylesheet" href="./components/navbar-action.css">
     <link rel="stylesheet" href="./components/navbar-dropwdown.css">
+    <link rel="stylesheet" href="./components/navbar-action.css">
     <link rel="stylesheet" href="./components/main-section.css">
     <link rel="stylesheet" href="./components/wrapper-section.css">
     <link rel="stylesheet" href="./components/main-title.css">
@@ -32,14 +31,14 @@
         <div class="navbar-container">
             <ul class="navbar-navigation">
                     <li class="navbar-item">
-                            <input id="toggle" type="checkbox">
-                            <a for="toggle" href="#" class="navbar-dropdown">Features</a>
-                            <div class="navbar-dropdown-icon" />
-                                <div class="dropdown-menu">
-                                    <a href="" class="dropdown-menu-link">
-                                        <img src="./img/icon-todo.svg" alt="icon todolist" class="dropdown-menu-icon">
-                                        <span class="dropdown-menu-text">Todo List</span>
-                                    </a>
+                            <div class="dropdown">
+                                <a onClick="myFunction()" class="navbar-dropdown">Features</a> <!-- LABEL -->
+                                <div class="navbar-dropdown-icon" />  <!-- ICON LABEL -->
+                                    <div class="dropdown-menu" id="myDropdown"> <!-- DIV -->
+                                        <a href="" class="dropdown-menu-link">
+                                            <img src="./img/icon-todo.svg" alt="icon todolist" class="dropdown-menu-icon">
+                                            <span class="dropdown-menu-text">Todo List</span>
+                                        </a>
                                     <a href="" class="dropdown-menu-link">
                                         <img src="./img/icon-calendar.svg" alt="icon calendar" class="dropdown-menu-icon">
                                         <span class="dropdown-menu-text">Calendar</span>
@@ -53,9 +52,10 @@
                                         <span class="dropdown-menu-text">Planning</span>
                                     </a>
                                 </div>  
+                            </div>
                     </li>
                     <li class="navbar-item">
-                            <a href="" class="navbar-dropdown">Company</a>
+                            <a href="#" class="navbar-dropdown">Company</a>
                             <div class="navbar-dropdown-icon" />
                                 <div class="dropdown-menu -company">
                                     <a href="" class="dropdown-menu-link">                        
@@ -96,5 +96,6 @@
         </div>
         <img src="./img/image-hero-desktop.png" alt="image hero desktop" class="hero-image">
     </section>
+    <script src="./js/components/index.js"></script>
 </body>
 </html>
