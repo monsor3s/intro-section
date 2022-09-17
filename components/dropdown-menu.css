@@ -1,19 +1,25 @@
 .dropdown-menu {
+    display: none;
     width: 153px;
     height: 162px;
     font-size: 14px;
     background-color: var(--AlWhite);
     position: absolute;
     z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 24px;
     top: calc(100% + 20px);
     right: 0;
     
+}
+
+.dropdown-menu a {
+    /* float: none; */
+    display: inline-block;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
 }
 
 .dropdown-menu.-company {
@@ -37,3 +43,7 @@
     height: 16px;
     margin-right: 13px;
 }
+
+.show {
+    display: block;
+}  

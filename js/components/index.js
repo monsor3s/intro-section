@@ -1,15 +1,27 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function myFunction() {
+function FunctionFeatures() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
   
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(e) {
     if (!e.target.matches('.navbar-dropdown')) {
-    var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains("show")) {
-        myDropdown.classList.remove("show");
+    var dropdowns = document.getElementById("myDropdown");
+      if (dropdowns.classList.contains("show")) {
+        dropdowns.classList.remove("show");
+      }
+    }
+  }
+
+  function FunctionCompany() {
+    document.getElementsById("DropdownComp").classList.toggle("show");
+  }
+  window.onclick = function(e) {
+    if (!e.target.matches('.navbar-dropdown')) {
+      var dropdowncomp = document.getElementsById("DropdownComp");
+      if (dropdowncomp.classList.contains("show")) {
+        dropdowncomp.classList.remove("show");
       }
     }
   }

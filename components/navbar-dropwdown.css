@@ -5,11 +5,11 @@
     color: var(--MediumGray);
     font-size: 14px;
     position: relative;
-    border: 0;
 }
 
 .navbar-dropdown:hover {
     color: var(--AlBlack);
+    cursor: pointer;
 }
 
 .navbar-dropdown.-action-button {
