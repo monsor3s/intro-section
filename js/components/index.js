@@ -14,14 +14,12 @@ function FunctionFeatures() {
     }
   }
 
-  function FunctionCompany() {
-    document.getElementsById("DropdownComp").classList.toggle("show");
-  }
-  window.onclick = function(e) {
-    if (!e.target.matches('.navbar-dropdown')) {
-      var dropdowncomp = document.getElementsById("DropdownComp");
-      if (dropdowncomp.classList.contains("show")) {
-        dropdowncomp.classList.remove("show");
-      }
-    }
-  }
+
+  // window.onclick = function(e) {
+  //   if (!e.target.matches('.navbar-dropdown')) {
+  //     var dropdowncomp = document.getElementsByClassName(".dropdown-menu -company");
+  //     if (dropdowncomp.classList.contains("show")) {
+  //       dropdowncomp.classList.remove("show");
+  //     }
+  //   }
+  // }
