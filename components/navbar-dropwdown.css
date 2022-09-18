@@ -7,10 +7,6 @@
     position: relative;
 }
 
-.navbar-dropdown:hover {
-    color: var(--AlBlack);
-    cursor: pointer;
-}
 
 .navbar-dropdown.-action-button {
     width: 104px;
