@@ -5,6 +5,7 @@
     color: var(--MediumGray);
     font-size: 14px;
     position: relative;
+    box-sizing: border-box;
 }
 
 

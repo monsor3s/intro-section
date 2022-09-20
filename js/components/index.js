@@ -4,7 +4,7 @@ function FunctionFeatures() {
   }
   
   // Close the dropdown if the user clicks outside of it
-  window.onclick = function(e) {
+window.onclick = function(e) {
     if (!e.target.matches('.dropdown')) {
     var dropdowns = document.getElementById("myDropdown");
       if (dropdowns.classList.contains("show")) {
@@ -13,7 +13,7 @@ function FunctionFeatures() {
     }
   }
 
-function FeaturesCompany() {
+function FunctionCompany() {
     document.getElementById("DropdownComp").classList.toggle("show");
 }
 
