@@ -1,5 +1,9 @@
 .dropdown-menu {
     display: none;
+}
+
+.dropdown-menu.on {
+    display: block;
     width: 153px;
     height: 162px;
     font-size: 14px;
@@ -14,12 +18,13 @@
     
 }
 
-.dropdown-menu a {
+.dropdown-menu.on a {
     display: inline-flex;
     margin-bottom: 14px;
+
 }
 
-.dropdown-menu.-company {
+.dropdown-menu.-company.on {
     width: 112px;
     height: 131px;
     padding: 23px;
@@ -40,7 +45,3 @@
     height: 16px;
     margin-right: 13px;
 }
-
-.show {
-    display: block;
-}  
