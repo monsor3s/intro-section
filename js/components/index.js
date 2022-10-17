@@ -1,15 +1,15 @@
-let show = true;
+// let show = true;
 
-const menuSection = document.querySelector(".dropdown")
-const menuFeatures = document.querySelector("#myDropdown")
-const menuCompany = document.querySelector("#dropdownComp")
-const iconDrop = document.querySelector(".navbar-dropdown-icon")
+// const menuSection = document.querySelector(".dropdown")
+// const menuFeatures = document.querySelector("#myDropdown")
+// const menuCompany = document.querySelector("#dropdownComp")
+// const iconDrop = document.querySelector(".navbar-dropdown-icon")
 
-menuSection.addEventListener("click", () => {
-  iconDrop.style.transform = "rotateX(180deg)";
-  menuFeatures.classList.toggle("on", show)
-  show = !show;
-})
+// menuSection.addEventListener("click", () => {
+//   iconDrop.style.transform = "rotateX(180deg)";
+//   menuFeatures.classList.toggle("on", show)
+//   show = !show;
+// })
 
 // menuSection.addEventListener("click", () => {
 //     menuFeatures.classList.toggle("off", show)

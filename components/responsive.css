@@ -1,0 +1,62 @@
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 1024px) {
+    .main-section {
+        padding: 30px;
+    }
+
+    .wrapper-section {
+        padding: 20px;
+    }
+
+    .main-title {
+        font-size: 6.3rem;
+        margin-top: 70px;
+    }
+
+    .main-subtitle {
+        font-size: 1.7rem;
+    }
+
+    
+
+    .main-section .hero-image {
+        width: 380px;
+        height: 500px;
+    }
+
+    .main-section .wrapper-hero {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 955px) {
+    .wrapper-section {
+        padding: 0;
+    }
+
+    .main-title {
+        font-size: 5.8rem;
+    }
+
+    .logo-section {
+        padding-right: 20px;
+    }
+
+    .main-section .hero-image {
+        width: 320px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}

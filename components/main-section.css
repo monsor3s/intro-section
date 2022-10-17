@@ -6,9 +6,7 @@
     margin-right: auto;
     position: relative;
     display: flex;
-    justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 150px;
+    justify-content: space-around;
 }
 
 .main-section .hero-image {
