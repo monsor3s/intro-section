@@ -59,6 +59,43 @@
 }
 
 @media (max-width: 768px) {
+    .main-navbar {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-container {
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: #000;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+    }
+
+    .menu-toggle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar-container.on {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        width: 240px;
+        height: 100vh;
+
+        background-color: aqua;
+        z-index: 10;
+    }
+
+    
+
     .main-section { 
         height: 100vh;
         display: flex;
