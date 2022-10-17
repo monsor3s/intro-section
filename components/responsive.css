@@ -106,7 +106,34 @@
 }
 
 @media (max-width: 480px) {
+    .hero-image-mobile {
+        width: 440px;
+        height: 320px;
+    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
+    .main-section {
+        padding: 10px;
+    }
+
+    .main-title {
+        font-size: 3.5rem;
+        margin-top: 70px;
+    }
+
+    .main-subtitle {
+        font-size: 1.7rem;
+        line-height: 2rem;
+        margin: 40px 0 70px 0;
+    }
+
+    .logo-section-item {
+        width: 80px;
+    }
+
+    .hero-image-mobile {
+        width: 360px;
+        height: 350px;
+    }
 }
