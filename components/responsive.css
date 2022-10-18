@@ -75,26 +75,68 @@
         height: 5px;
         width: 100%;
         margin: 6px auto;
+        transition-duration: 0.3s;
     }
 
     .menu-toggle {
         width: 40px;
         height: 40px;
+        cursor: pointer;
+        z-index: 11;
     }
 
     .navbar-container.on {
+        display: block;
         position: absolute;
         top: 0;
         right: 0;
+        padding: 20px;
 
         width: 240px;
         height: 100vh;
 
-        background-color: aqua;
+        background-color: #fff;
         z-index: 10;
     }
 
-    
+    .navbar-container.on .menu-toggle {
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+
+    .navbar-container.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .navbar-container.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .navbar-container.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .navbar-container.on .navbar-navigation {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 80px;
+        gap: 15px;
+    }
+
+    .navbar-container.on .navbar-action {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        gap: 10px;
+        margin-top: 40px;
+    }
+
+    .navbar-dropdown.-action-button {
+        width: 100%;
+    }
+
 
     .main-section { 
         height: 100vh;
@@ -133,7 +175,7 @@
     }
 
     .hero-image-mobile {
-        width: 570px;
+        width: 100%;
         height: 350px;
     }
 

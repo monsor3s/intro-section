@@ -1,3 +1,13 @@
+let show = true;
+
+const menuSection = document.querySelector(".navbar-container")
+const menuToggle = document.querySelector(".menu-toggle")
+
+menuToggle.addEventListener("click", () => {
+    menuSection.classList.toggle("on", show)
+    show = !show;
+})
+
 // let show = true;
 
 // const menuSection = document.querySelector(".dropdown")
@@ -10,6 +20,8 @@
 //   menuFeatures.classList.toggle("on", show)
 //   show = !show;
 // })
+
+
 
 // menuSection.addEventListener("click", () => {
 //     menuFeatures.classList.toggle("off", show)
