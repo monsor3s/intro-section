@@ -30,19 +30,20 @@
 <body>
     <header class="main-navbar">
         <img src="./img/logo.svg" class="logo-navbar" alt="logo navbar">
-            <div class="menu-toggle">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-            </div>
+        <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+        <div class="nav-background-transparent"/></div>
         <div class="navbar-container">
             <ul class="navbar-navigation">
                     <li class="navbar-item">
-                            <button class="dropdown">
+                            <button class="dropdown" id="dropdownFeatures">
                                 <a class="navbar-dropdown">Features</a>
                                 <div class="navbar-dropdown-icon" />
                             </button>  
-                                <div class="dropdown-menu" id="myDropdown"> 
+                                <div class="dropdown-menu" id="dropdownFeat"> 
                                     <a href="" class="dropdown-menu-link">
                                         <img src="./img/icon-todo.svg" alt="icon todolist" class="dropdown-menu-icon">
                                         <span class="dropdown-menu-text">Todo List</span>
@@ -63,9 +64,9 @@
                             
                     </li>
                     <li class="navbar-item">
-                            <button class="dropdown">
+                            <button class="dropdown" id="dropdownCompany">
                                 <a class="navbar-dropdown">Company</a>
-                                <div class="navbar-dropdown-icon" />
+                                <div class="navbar-dropdown-icon -company" />
                             </button>
                                 <div class="dropdown-menu -company" id="dropdownComp">
                                     <a href="" class="dropdown-menu-link">
