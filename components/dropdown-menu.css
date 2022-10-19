@@ -6,7 +6,6 @@
     display: block;
     width: 153px;
     height: 162px;
-    font-size: 1.4rem;
     background-color: var(--AlWhite);
     position: absolute;
     z-index: 1;
@@ -21,19 +20,22 @@
 .dropdown-menu.on a {
     display: inline-flex;
     margin-bottom: 14px;
-
 }
 
 .dropdown-menu.-company.on {
     width: 112px;
     height: 131px;
-    padding: 23px;
-    right: -30px;
+    padding: 25px;
+    right: -20px;
+    
 }
 
 .dropdown-menu-link {
     color: var(--MediumGray);
     text-decoration: none;
+    font-size: 2.2rem;
+    align-items: center;
+
 }
 
 .dropdown-menu-link:hover {
