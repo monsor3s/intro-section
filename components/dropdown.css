@@ -4,11 +4,14 @@
     border: 0;
 }
 
-.dropdown:hover {
+.dropdown:hover > .navbar-dropdown, .dropdown:hover > .navbar-dropdown-icon {
     color: var(--AlBlack);
     cursor: pointer;
 }
 
+.navbar-dropdown:hover {
+    color: var(--AlBlack);
+}
 
 .dropdown .navbar-dropdown-icon {
     color: var(--MediumGray);

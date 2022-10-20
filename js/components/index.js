@@ -15,8 +15,6 @@ const dropdownComp = document.getElementById("dropdownComp")
 const arrowFeat = document.querySelector(".navbar-dropdown-icon")
 const arrowComp = document.querySelector(".navbar-dropdown-icon.-company")
 
-
-
 menuToggle.addEventListener("click", () => {
     backgroundTransparent.style.display = show ? "block" : "none"
     toggleOne.style.transform = show ? "matrix(0.71,0.71,-0.71,0.71,7,7)" : "initial"
