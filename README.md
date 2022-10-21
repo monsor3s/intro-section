@@ -15,9 +15,11 @@ Essa é a solução do desafio [Intro section with dropdown navigation](https://
   - [What I've learned](#📝-what-ive-learned)
   - [Autor](#🙋🏻‍♂️-autor) 
 
-### 📷 Screenshot
-
-![](./assets/screenshot-portifolio.gif)
+### 📷 Screenshots
+<div style="display:flex">
+  <img src="./img/introDESK.gif" alt="screenDesk" height="300px" width="300px" style="display:flex">
+  <img src="./img/introMOBILE.gif" alt="screenDesk" height="300px"  style="display:flex">
+</div>
 
 
 ### 🖇 Links
