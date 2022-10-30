@@ -4,7 +4,7 @@
   <img src="./img/logo.svg"/>
 <h1>
 
-Essa é a solução do desafio [Intro section with dropdown navigation](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/hub/intro-section-with-dropdown-navigation-VlFD8ZUKMZ).
+This is the solution to the challenge [Intro section with dropdown navigation](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/hub/intro-section-with-dropdown-navigation-VlFD8ZUKMZ).
 
 ##  🧵 Índice
 
