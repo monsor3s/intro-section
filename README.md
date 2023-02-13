@@ -1,4 +1,4 @@
-# 💻 Personal Portfolio
+# 💻 Challenge Frontend Mentor
 
 <h1 align="center">
   <img src="./img/logo.svg"/>
